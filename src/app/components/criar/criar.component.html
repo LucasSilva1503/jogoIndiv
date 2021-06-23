@@ -1,0 +1,15 @@
+<section>
+  <div class="personagem">
+    <img src="../../../assets/Images/mcgregor.png" alt="" />
+  </div>
+
+  <div class="personagem">
+    <input type="text" #name placeholder="Nome" />
+    <input type="number" #atk placeholder="Ataque" />
+    <input type="number" #int placeholder="Inteligencia" />
+    <input type="number" #vida placeholder="Vida" />
+    <button (click)="criar(name.value, atk.value, int.value, vida.value)">
+      Click
+    </button>
+  </div>
+</section>

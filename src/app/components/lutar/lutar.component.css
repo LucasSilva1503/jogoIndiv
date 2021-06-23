@@ -1,0 +1,49 @@
+section {
+  background-image: url(../../../assets/Images/ring.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ring {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.player1 {
+  margin-right: 75px;
+}
+
+.player2 {
+  margin-left: 75px;
+}
+
+.stats1,
+.stats2 {
+  background-color: rgba(2, 2, 2, 0.445);
+  color: whitesmoke;
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.stats1 {
+  border-bottom: 3px solid blue;
+}
+
+.stats2 {
+  border-bottom: 3px solid red;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}

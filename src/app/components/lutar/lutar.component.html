@@ -1,0 +1,27 @@
+<section>
+  <div class="ring">
+    <div class="player1">
+      <img src="../../../assets/Images/mcgregor.png" alt="" />
+      <div class="stats1">
+        <p>NOME: {{ service.personagem.nome }}</p>
+        <p>VIDA: {{ service.personagem.hp }}</p>
+        <p>ATAQUE: {{ service.personagem.atk }}</p>
+      </div>
+    </div>
+
+    <div class="player2">
+      <img src="../../../assets/Images/adversario.png" alt="" />
+      <div class="stats2">
+        <p>NOME:{{ service.adversario.nome }}</p>
+        <p>VIDA:{{ service.adversario.hp }}</p>
+        <p>ATAQUE: {{ service.adversario.atk }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <button (click)="start()" #startFight>
+      <img src="../../../assets/Images/btn.png" alt="" />
+    </button>
+  </div>
+</section>

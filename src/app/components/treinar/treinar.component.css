@@ -1,0 +1,39 @@
+.ring {
+  background-image: url(../../../assets/Images/train.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.pbag {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+
+#sair {
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+  border-left: 2px solid red;
+  border-bottom: 2px solid red;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 85px;
+  transition: 0.3s;
+}
+
+#sair:hover {
+  color: red;
+  border-left: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+}

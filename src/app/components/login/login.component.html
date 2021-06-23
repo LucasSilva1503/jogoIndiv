@@ -1,0 +1,8 @@
+<section>
+  <div class="formulario" #formulario>
+    <h1>Member Login</h1>
+    <input placeholder="Name" #name />
+    <input placeholder="Password" #pass type="password" />
+    <button (click)="dologin(name.value, pass.value, formulario)">Login</button>
+  </div>
+</section>
